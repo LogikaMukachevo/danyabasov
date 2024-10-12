@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #282c34;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: white;
+}
+
+.main .content {
+    flex: 1;
+    margin-right: 30px;
+}
+
+.main .content h2 {
+    font-size: 36px;
+    color: #333;
+}
+
+.main .content p {
+    font-size: 18px;
+    color: #666;
+}
+
+.main .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.main .btn:hover {
+    background-color: #218838;
+}
+
+.main-image img {
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.features {
+    background-color: #282c34;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.features-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature {
+    flex: 1;
+    margin: 0 20px;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+}
+
+.feature img {
+    max-width: 100px;
+    margin-bottom: 20px;
+}
+
+.feature h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.models {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.models h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.models-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.model {
+    flex: 1;
+    margin: 0 20px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.model img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #28a745;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+li{
+    padding-bottom: 5px;
+}
